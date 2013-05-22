@@ -25,6 +25,10 @@ Here's .gitignore content:
 6. git remote add origin *YourGitLink*  
 7. git push -u origin master
 - - -
+### Change git remote url
+git remote set-url origin git://new.url.here
+
+- - -
 
 ### 終端機下新增檔案
 
