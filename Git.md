@@ -24,8 +24,10 @@ Here's .gitignore content:
 5. git commit -m "first commit"  
 6. git remote add origin *YourGitLink*  
 7. git push -u origin master
+
 - - -
-### Change git remote url
+ 
+### 修改 remote url
 git remote set-url origin git://new.url.here
 
 - - -
