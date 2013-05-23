@@ -1,6 +1,6 @@
 # Git學習筆記
 
-2011/11/15 by Hanpo 
+2013/05/23 by Hanpo 
 
 ### 基本指令 - 建立一個新的repository
 
@@ -15,6 +15,11 @@ https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 5. git commit -m "first commit"  
 6. git remote add origin *YourGitLink*  
 7. git push -u origin master
+
+- - -
+ 
+### 刪除 git local repository
+rm -rf .git
 
 - - -
  
