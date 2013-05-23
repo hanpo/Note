@@ -6,39 +6,9 @@
 
 1. Open a new git repositories [github](https://github.com/).  
 2. cd Local project folder,add a [.gitignore](https://gist.github.com/1241699).  
-Here's .gitignore content:   
+Here's .gitignore content link:   
 
-      .DS_Store
-      
-      */build/*
-      
-      *.pbxuser
-      
-      !default.pbxuser
-      
-      *.mode1v3
-      
-      !default.mode1v3
-      
-      *.mode2v3
-      
-      !default.mode2v3
-      
-      *.perspectivev3
-      
-      !default.perspectivev3
-      
-      xcuserdata
-      
-      profile
-      
-      *.moved-aside
-      
-      DerivedData
-      
-      .idea/
-      
-      *.hmap
+https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 
 3. git init
 4. git add .  
