@@ -5,12 +5,10 @@
 ### 基本指令 - 建立一個新的repository
 
 1. Open a new git repositories [github](https://github.com/).  
-2. cd Local project folder,add a [.gitignore](https://gist.github.com/1241699).  
-Here's .gitignore content link:   
-https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+2. cd Local project folder,add a [.gitignore](https://gist.github.com/1241699). 
 
-Download bt wget
-wget "https://github.com/github/gitignore/blob/master/Objective-C.gitignore"
+Download by wget:
+* wget "https://github.com/github/gitignore/blob/master/Objective-C.gitignore"
 
 3. git init
 4. git add .  
