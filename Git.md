@@ -19,16 +19,25 @@ Download by wget:
 - - -
  
 ### 刪除 git local repository
-rm -rf .git
+`rm -rf .git`
 
 - - -
  
 ### 修改 remote url
-git remote set-url origin git://new.url.here
+`git remote set-url origin git://new.url.here`
+
+- - -
+ 
+### 強推，即利用強覆蓋方式
+`git push -f`
 
 - - -
 
-### 終端機下新增檔案
+### 終端機下新增/編輯檔案
+
+* `touch filename`
+
+### 終端機下新增/編輯檔案
 
 * 指令為`vi fileName`
 
