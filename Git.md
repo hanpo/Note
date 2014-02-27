@@ -1,4 +1,4 @@
-# Git學習筆記
+# Git Note
 
 2013/05/23 by Hanpo 
 
