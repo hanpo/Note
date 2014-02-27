@@ -33,7 +33,7 @@ Download by wget:
 
 - - -
 
-### 終端機下新增/編輯檔案
+### 終端機下新增檔案
 
 * `touch filename`
 
