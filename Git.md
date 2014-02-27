@@ -4,7 +4,7 @@
 
 ### 安裝Git
 
-建議先裝 [Homebrew](http://brew.sh/)  
+建議先裝 [Homebrew](http://brew.sh/) 管理套件  
 用 Homebrew 安裝 Git 指令 `brew install git`
 
 ### 設定Git
