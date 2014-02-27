@@ -4,11 +4,15 @@
 
 ### 基本指令 - 建立一個新的repository
 
+######開專案
+
 1. Open a new git repositories [github](https://github.com/).  
 2. cd Local project folder,add a [.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore). 
 
 Download by wget:
 `wget "https://www.dropbox.com/s/ke5mfhzq1m0xh0a/.gitignore"`
+
+######初始化
 
 3. git init
 4. git add .  
