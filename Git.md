@@ -17,19 +17,19 @@
 
 以上這三個層級，越後面的會優先於前面的設定。
 
-設定名字  
+* 設定名字  
 `git config --global user.name "YOUR NAME"`  
-設定信箱  
+* 設定信箱  
 `git config --global user.email YOURMAIL`  
-指定編輯器  
+* 指定編輯器  
 `git config --global core.editor emacs`  
-設定合併工具  
+* 設定合併工具  
 `git config --global merge.tool vimdiff`  
-檢視目前Git判斷所用的設定  
+* 檢視目前Git判斷所用的設定  
 `git config`  
-檢視所有設定值  
+* 檢視所有設定值  
 `git config --list`  
-編輯目前帳號的設定值  
+* 編輯目前帳號的設定值  
 `vim ~/gitconfig`    
   
 [Mosky 的 Git 設定參考](http://j.mp/mosky-gitconfig)
