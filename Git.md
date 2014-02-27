@@ -39,7 +39,7 @@
 
 `git --version` 
 
-### 基本指令 - 建立一個新的repository
+### 基本指令
 
 ######開專案
 
@@ -56,6 +56,9 @@ Download by wget:
 3. `git commit -m "first commit"`  
 4. `git remote add origin *YourGitLink*`  
 5. `git push -u origin master`
+
+######觀看 git 狀態
+`git status`  
 
 - - -
  
