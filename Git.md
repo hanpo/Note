@@ -79,35 +79,35 @@ Download by wget:
 
 ### git flow(開feature branch)
   
-* git checkout -b develop  
+* `git checkout -b develop`  
 *新開branch並切換過去* 
   
-* git flow init  
+* `git flow init`  
   
-* git flow feature start change-navigationBar-color  
+* `git flow feature start change-navigationBar-color`  
 *新開feature branch並切換過去*  
 
-* Edit your project
+* `Edit your project`
 
-* gitx
+* `gitx`
 
       stage拖拉Unstaged Changes檔案至Stage Changes撰寫Commit Message並Commit
       等同於git add filename然後git commit -m "message"
   
-* git flow feature finish change-navigationBar-color  
+* `git flow feature finish change-navigationBar-color`  
 *結束feature branch並跟develop做merge，最後切換到develop，如果加上-p直接push出去，-k保留分支*  
   
-* git push origin develop  
+* `git push origin develop`  
 
 - - -
 
 ### 更新submodule
 
-* git submodule init 
+* `git submodule init` 
 
-* git submodule sync 
+* `git submodule sync` 
 
-* git submodule update 
+* `git submodule update` 
 
 - - -
 
