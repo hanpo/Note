@@ -1,6 +1,6 @@
 # Git Note
 
-2013/05/23 by Hanpo 
+2014/02/27 by Hanpo 
 
 ### 安裝Git
 
@@ -39,7 +39,7 @@
 
 `git --version` 
 
-### 基本指令
+### 新專案流程
 
 ######開專案
 
@@ -54,25 +54,73 @@ Download by wget:
 1. `git init`
 2. `git add .`  
 3. `git commit -m "first commit"`  
-4. `git remote add origin *YourGitLink*`  
+4. `git remote add <name> <url>` name一般用origin，url可以是本地
 5. `git push -u origin master`
+
+### 基本指令
 
 ######觀看 git 狀態
 `git status`  
 
-- - -
- 
-### 刪除 git local repository
+######設定遠端 
+`git remote <name> <url>`
+
+######查看遠端 
+`git remote`
+
+######刪除遠端路徑
+`git remote remove <name>`
+
+###### 推出 git
+`git push <repos> <refspec>`  
+<refspec> 通常是 branch 或 tag name  
+如果本地(src)跟遠端名稱(dst)不一樣要再加上參數`[+]<src>[:<dst>]`  
+如果本地為空的則為刪除遠端reference`:<dst>`
+
+###### 拉回專案並且合併  
+`git pull <repos> <refspec>` 也等同於 `git fetch` 跟 `git merge`
+
+######刪除本地 branch
+先切回master `git checkout master`  
+再執行刪除 `git branch -d feature/your-feature-name-here`  
+
+######刪除遠端 branch
+`git push origin :feature/some_awesome_feature` 
+
+######查看專案修改狀態
+`git diff` 
+
+######查看專案每次修改的記錄
+`git log` 
+
+###### 切換不同的版本  
+`git checkout <commit>`  
+<commit>是log裡的那一串數字你可以複製或只打前幾碼，另一個比較特別的是參數是HEAD，他代表目前版本(動態的)
+
+###### 使用 tag 作為 commit name
+`git tag <tagname>`  
+你可以將切到某個版本`git checkout 98f9s8`，然後設定tag`git tag v0.1`，以後要切換這版只要用`git checkout v0.1`  
+
+###### 查看有哪些 tag 
+`git tag` 
+
+###### 回復一個commit
+`git reset <commit>`  
+把你現在的位置即HEAD指到<commit>去(其實沒刪)，然後打 `git checkout -- <file>` 拋棄修改  
+  
+`git revert <commit>`  
+做一個跟commit相反的動作回復，會出現在log裡
+
+###### 刪除 git local repository
 `rm -rf .git`
 
-- - -
- 
-### 修改 remote url
+###### 建立空的git（可以做本地實驗的remote repository）
+`git init -bare`
+
+###### 修改 remote url
 `git remote set-url origin git://new.url.here`
 
-- - -
- 
-### 強推，即利用強覆蓋方式
+###### 強推，即利用強覆蓋方式
 `git push -f`
 
 - - -
