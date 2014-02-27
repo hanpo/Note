@@ -58,6 +58,8 @@ Download by wget:
 5. `git push -u origin master`
 
 ### 基本指令
+* 查看 git 指令說明 
+`git help <verb>`  
 
 * 觀看 git 狀態  
 `git status`  
@@ -80,12 +82,25 @@ Download by wget:
 * 拉回專案並且合併   
 `git pull <repos> <refspec>` 也等同於 `git fetch` 跟 `git merge`
 
+* 查看 branch
+`git branch <branchname>`
+
+* 切換 branch
+`git checkout <branchname>`
+
+* 切換外加新增 branch
+`git checkout -b <branchname>`
+
+* 合併 branch  
+`git checkout <bace-branch>`  
+`git merge <topic-branch>`  
+
 * 刪除本地 branch  
 先切回master `git checkout master`  
-再執行刪除 `git branch -d feature/your-feature-name-here`  
+再執行刪除 `git branch -d <branchname>`  
 
 * 刪除遠端 branch  
-`git push origin :feature/some_awesome_feature` 
+`git push origin :<branchname>` 
 
 * 查看專案修改狀態  
 `git diff` 
