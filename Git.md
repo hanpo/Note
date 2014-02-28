@@ -47,7 +47,7 @@
 2. cd Local project folder,add a [.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore). 
 
 Download by wget:  
-`wget "https://www.dropbox.com/s/ke5mfhzq1m0xh0a/.gitignore"`
+`wget "http://hanpo.tw/git/.gitignore"`
 
 ######初始化
 
@@ -57,12 +57,17 @@ Download by wget:
 4. `git remote add <name> <url>` name一般用origin，url可以是本地
 5. `git push -u origin master`
 
+### 狀態流程圖
+![Git flow image](http://hanpo.tw/git/git.jpg)
 ### 基本指令
-* 查看 git 指令說明 
+* 查看 git 指令說明  
 `git help <verb>`  
 
 * 觀看 git 狀態  
 `git status`  
+
+* 初始化 git (會產生.git的資料夾在該專案)  
+`git init [<directory>]` 
 
 * 設定遠端  
 `git remote <name> <url>`
