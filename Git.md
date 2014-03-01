@@ -57,8 +57,9 @@ Download by wget:
 4. `git remote add <name> <url>` name一般用origin，url可以是本地
 5. `git push -u origin master`
 
-### 狀態流程圖
-![Git flow image](http://hanpo.tw/git/git.jpg)
+### Git 狀態圖
+![Git image](http://hanpo.tw/git/git.jpg)
+
 ### 基本指令
 * 查看 git 指令說明  
 `git help <verb>`  
@@ -135,7 +136,7 @@ Download by wget:
 * 刪除 git local repository  
 `rm -rf .git`
 
-* 建立空的git（可以做本地實驗的remote repository） 
+* 建立空的git（可以做本地實驗的remote repository）  
 `git init -bare`
 
 * 修改 remote url  
@@ -146,27 +147,39 @@ Download by wget:
 
 - - -
 
-### git flow(開feature branch)
-  
-* `git checkout -b develop`  
-*新開branch並切換過去* 
-  
-* `git flow init`  
-  
-* `git flow feature start change-navigationBar-color`  
-*新開feature branch並切換過去*  
+### Git Flow
 
-* `Edit your project`
+[nvie/gitflow](https://github.com/nvie/gitflow)  
+[git-flow 備忘清單](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)  
 
-* `gitx`
+* 安裝  
+`brew install git-flow` 
 
-      stage拖拉Unstaged Changes檔案至Stage Changes撰寫Commit Message並Commit
-      等同於git add filename然後git commit -m "message"
-  
-* `git flow feature finish change-navigationBar-color`  
-*結束feature branch並跟develop做merge，最後切換到develop，如果加上-p直接push出去，-k保留分支*  
-  
-* `git push origin develop`  
+### Creating feature branches
+
+* 新開branch並切換過去(feature都從develop開分支)  
+`git checkout -b develop`  
+
+* 初始化  
+`git flow init`  
+
+* 新開feature branch並切換過去  
+`git flow feature start NEW_FEATURE`  
+
+* 結束feature branch並跟develop做merge，最後切換到develop，如果加上-p直接push出去，-k保留分支  
+`git flow feature start NEW_FEATURE`
+
+* push 一個 feature branch 到遠端   
+`git flow feature publish NEW_FEATURE`  
+
+* 取得一個發佈的新特性分支  
+`git flow feature pull NEW_FEATURE` 
+
+* 刪除遠端分支  
+`git push origin :feature/NEW_FEATURE`
+ 
+### Git Flow 狀態圖
+![Git flow image](http://hanpo.tw/git/gitflow.png)
 
 - - -
 
