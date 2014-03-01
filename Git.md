@@ -28,7 +28,7 @@
 * 檢視所有設定值  
 `git config --list`  
 * 編輯目前帳號的設定值  
-`vim ~/gitconfig`    
+`vim ~/.gitconfig`    
   
 [Mosky 的 Git 設定參考](http://j.mp/mosky-gitconfig)
 
