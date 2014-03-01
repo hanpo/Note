@@ -1,7 +1,5 @@
 # Git Note
 
-2014/02/27 by Hanpo 
-
 ### 安裝Git
 
 建議先裝 [Homebrew](http://brew.sh/) 管理套件  
