@@ -59,7 +59,7 @@ Download by wget:
 ![Git image](http://hanpo.tw/git/git.jpg)
 
 ### 基本指令
-* 查看目前使用 git 的路徑(Homebrew會裝在/usr/local/bin)
+* 查看目前使用 git 的路徑(Homebrew會裝在/usr/local/bin)  
 `which git` 
 
 * 查看 git 指令說明  
