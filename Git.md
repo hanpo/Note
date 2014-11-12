@@ -1,5 +1,5 @@
 # Git Note
-2014/03/01 by Hanpo 
+2014/11/13 by Hanpo 
 ### 安裝Git
 
 建議先裝 [Homebrew](http://brew.sh/) 管理套件  
@@ -59,6 +59,9 @@ Download by wget:
 ![Git image](http://hanpo.tw/git/git.jpg)
 
 ### 基本指令
+* 查看目前使用 git 的路徑(Homebrew會裝在/usr/local/bin)
+`which git` 
+
 * 查看 git 指令說明  
 `git help <verb>`  
 
