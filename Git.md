@@ -1,5 +1,5 @@
 # Git Note
-2014/11/13 by Hanpo 
+2014/12/10 by Hanpo 
 ### 安裝Git
 
 建議先裝 [Homebrew](http://brew.sh/) 管理套件  
@@ -101,6 +101,9 @@ Download by wget:
 * 合併 branch  
 `git checkout <bace-branch>`  
 `git merge <topic-branch>`  
+
+* 若 merge 後反悔(回到merge前的commit point)
+`git reset --hard HEAD` 
 
 * 刪除本地 branch  
 先切回master `git checkout master`  
