@@ -116,7 +116,10 @@ Download by wget:
 `git diff` 
 
 * 查看專案每次修改的記錄  
-`git log` 
+`git log`
+
+* 查看專案每次修改的記錄(圖像)  
+`git log --graph --oneline --all --decorate` 
 
 * 切換不同的版本  
 `git checkout <commit>`  
