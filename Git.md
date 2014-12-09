@@ -102,7 +102,7 @@ Download by wget:
 `git checkout <bace-branch>`  
 `git merge <topic-branch>`  
 
-* 若 merge 後反悔(回到merge前的commit point)
+* 若 merge 後反悔(回到merge前的commit point)  
 `git reset --hard HEAD` 
 
 * 刪除本地 branch  
