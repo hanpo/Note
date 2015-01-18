@@ -44,8 +44,11 @@
 1. Open a new git repositories [github](https://github.com/).  
 2. cd Local project folder,add a [.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore). 
 
-Download by wget:  
+Download by wget from my website:  
 `wget "http://hanpo.tw/git/.gitignore"`
+
+Other Way:  
+`https://www.gitignore.io/docs`
 
 ######初始化
 
