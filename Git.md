@@ -139,7 +139,7 @@ Other Way:
 `git reset <commit>`  
 把你現在的位置即HEAD指到<commit>去(其實沒刪)，然後打 `git checkout -- <file>` 拋棄修改  
  
-* 用revert回復commit  
+* 用revert回復commit  git remote
 `git revert <commit>`  
 做一個跟commit相反的動作回復，會出現在log裡
 
@@ -148,6 +148,9 @@ Other Way:
 
 * 建立空的git（可以做本地實驗的remote repository）  
 `git init -bare`
+
+* 查詢當前 Git Repository 的遠端來源路徑
+`git remote -v` 
 
 * 修改 remote url  
 `git remote set-url origin git://new.url.here`
