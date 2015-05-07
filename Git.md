@@ -149,7 +149,7 @@ Other Way:
 * 建立空的git（可以做本地實驗的remote repository）  
 `git init -bare`
 
-* 查詢當前 Git Repository 的遠端來源路徑
+* 查詢當前 Git Repository 的遠端來源路徑  
 `git remote -v` 
 
 * 修改 remote url  
